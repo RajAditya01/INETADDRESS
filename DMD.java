@@ -8,6 +8,7 @@ class Parent {
 }
 
 class Child extends Parent {
+    //METHOD OVERRIDE
     void display(){
         System.out.println("Child");
     }
@@ -23,5 +24,6 @@ class DMD {
 
         obj.display();
         obj.show();
+       //obj.fun();
     }
 }
